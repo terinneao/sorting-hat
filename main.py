@@ -79,8 +79,8 @@ class Ui_MainWindow(object):
         for (value1, value2) in enumerate(zip(house_namelist, house_list2)): 
             resul = str(value2[0] +" has "+ str(len(value2[1])) +" students ")
             print(value2[0] +" has "+ str(len(value2[1])) +" students ")
-            result += resul
-        print(result)    
+            result += resul 
+       
         # self.label.setText(result)
         self.textEdit.setText(result)
 
